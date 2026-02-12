@@ -1,0 +1,25 @@
+import requests
+from bs4 import BeautifulSoup
+
+# 1. Target URL
+URL = "http://books.toscrape.com/catalogue/category/books/mystery_3/index.html"
+
+# 2. Get the page
+response = requests.get(URL)
+response.encoding = 'utf-8' # Ensure special characters display correctly
+
+# 3. Create the "Soup"
+soup = BeautifulSoup(response.text, "html.parser")
+
+# 4. Find the items
+# On this site, every book is inside an <article> tag with the class "product_pod"
+books = soup.find_all("article", class_="product_pod")
+
+print(f"Found {len(books)} books!\n")
+
+for book in books:
+    # Find the <h3> tag, then the <a> tag inside it, then get the "title" attribute
+    title = book.h3.a["title"]
+    price = book.find("p", class_="price_color").text
+    
+    print(f"📖 {title} | 💰 {price}")

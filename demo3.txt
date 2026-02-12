@@ -1,0 +1,25 @@
+import requests
+from bs4 import BeautifulSoup
+import time
+import random
+
+URL = "http://books.toscrape.com/"
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+}
+
+def stealth_crawl(url):
+    print(f"Requesting {url} with a masked identity...")
+    
+    # Send request with headers
+    response = requests.get(url, headers=HEADERS)
+    
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, "html.parser")
+        # (Processing logic goes here)
+        print("Successfully fetched data!")
+    else:
+        print(f"Blocked or Error: {response.status_code}")
+
+if __name__ == "__main__":
+    stealth_crawl(URL)

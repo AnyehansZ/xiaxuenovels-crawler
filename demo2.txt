@@ -1,0 +1,41 @@
+import requests
+import random
+import time
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
+
+# Base URL to help resolve relative links
+BASE_URL = "http://books.toscrape.com/catalogue/category/books/mystery_3/"
+current_url = "index.html"
+
+def crawl_books(start_url):
+    url = urljoin(BASE_URL, start_url)
+    
+    while url:
+        print(f"--- Crawling: {url} ---")
+        response = requests.get(url)
+        soup = BeautifulSoup(response.text, "html.parser")
+        
+        # 1. Extract the data on the current page
+        books = soup.find_all("article", class_="product_pod")
+        for book in books:
+            title = book.h3.a["title"]
+            print(f"Found: {title}")
+
+        # 2. Look for the 'Next' button
+        next_button = soup.find("li", class_="next")
+        
+        if next_button:
+            # Get the relative path (e.g., 'page-2.html')
+            next_page_rel = next_button.a["href"]
+            # Join it with our base URL to get the full link
+            url = urljoin(url, next_page_rel)
+
+            print("Pausing for 3 seconds...")
+            time.sleep(random.uniform(3, 5)) # Wait for a random time between 3 and 5 seconds before the next request
+        else:
+            print("\n✅ Reached the last page.")
+            url = None  # This breaks the loop
+
+if __name__ == "__main__":
+    crawl_books(current_url)
