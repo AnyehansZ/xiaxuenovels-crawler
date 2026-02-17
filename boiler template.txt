@@ -1,0 +1,174 @@
+Link Sample:https://xiaxuenovels.xyz/the-black-technology-chat-group-of-ten-thousand-realms/
+
+Html boiler plate:
+
+Next button url is the last in a paragraph tag:
+
+<p style="text-align: center;">[Previous] [<a href="https://xiaxuenovels.xyz/the-black-technology-chat-group-of-ten-thousand-realms/">ToC</a>] [<a href="https://xiaxuenovels.xyz/the-black-technology-chat-group-of-the-ten-thousand-realms/btc-chapter-02-red-envelope-from-red-queen/">Next</a>]</p>
+
+pay attention that this html came from the first page of the chapter
+so the previous html url code does not exist yet.
+
+Body template:
+<div class="post-title">
+           
+			<div id="xiaxu-4104666136" class="xiaxu-before-content"><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1263598087662890" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-1263598087662890" data-ad-slot="3797863106" data-ad-format="auto"></ins>
+<script> 
+(adsbygoogle = window.adsbygoogle || []).push({}); 
+</script>
+</div><p>Edited: XiaXue</p>
+<p>This Monday i have off from work so i just post this edited chapter ahead of time <img draggable="false" role="img" class="emoji" alt="😀" src="https://s.w.org/images/core/emoji/16.0.1/svg/1f600.svg"></p>
+<p><img fetchpriority="high" decoding="async" class="size-medium wp-image-268 aligncenter" src="https://xiaxuenovels.xyz/wp-content/uploads/2019/03/voting-300x267.jpg" alt="" width="300" height="267" srcset="https://xiaxuenovels.xyz/wp-content/uploads/2019/03/voting-300x267.jpg 300w, https://xiaxuenovels.xyz/wp-content/uploads/2019/03/voting.jpg 557w" sizes="(max-width: 300px) 100vw, 300px"></p>
+<p>After this vote, i will post The Black Technology Chat Group of Ten Thousand Realms from this week <img draggable="false" role="img" class="emoji" alt="😀" src="https://s.w.org/images/core/emoji/16.0.1/svg/1f600.svg"></p>
+<p>This chapter 01-14 is translated from site <a href="https://lolimtl.wordpress.com" target="_blank" rel="noopener noreferrer nofollow">Loli Quality MTL</a>, and i will just edit this chapter <img draggable="false" role="img" class="emoji" alt="😀" src="https://s.w.org/images/core/emoji/16.0.1/svg/1f600.svg"></p>
+<hr>
+<p><span class="notranslate">In a parallel world:</span></p>
+<p><span class="notranslate">Jiangcheng, a high-tech development zone, inside an Internet cafe.</span></p>
+<p><span class="notranslate">At a row of new ultra-wide displays, equipped with e-sports chairs, sits a player who is playing a FPS game.</span></p>
+<p><span class="notranslate">“What the fuck, landing at a house, I wasn’t seen, and I was killed!” A thin tall man with glasses shouted, his face showing his unwillingness to accept that he died.</span></p>
+<p><span class="notranslate">“Brother, its alright, I, your big brother, will take you to eat chicken!” a man next to the thin man shouted; on the computer screen, the character he’s controlling has entered the house and began to loot the equipment on the ground.</span></p>
+<p><span class="notranslate">The slim man looked at his screen while pointing : “This house must have been searched, and this is a Green Pattern Cap, Lu Zi quick equip it.”</span></p>
+<p><span class="notranslate">“Get out the way!” Lu Zixin shouted while he raised his gun and killed an enemy he spotted.</span></p>
+<p><span class="notranslate">The game that they are playing is the very popular action shooting game called “PlayerUnkown’s : Battlegrounds “, also known as “Eating Chicken”.</span></p>
+<p><span class="notranslate">This game lets a hundred players “love each other” on a deserted island, and the last person surviving is the winner.</span></p>
+<p><span class="notranslate">Lu Zixin reactions are sharp, his consciousness is super strong, which has let him to quickly enter the top ten.</span></p>
+<p><span class="notranslate">“Ha ha ha, this Voldemort, still want to yin me?” Lu Zixin shot again to kill a sniper hiding in the grass, and he was getting closer and closer to&nbsp; winning the game.</span></p>
+<p><span class="notranslate">But at this moment, he saw a pair of hands flying from a distant place, forty meters long hands</span> s<span class="notranslate">hooting their guns everywhere.</span></p>
+<p><span class="notranslate">“What the hell! This cheater, how can their hands become so long?” Next to Lu Zixin, the thin tall man Zhu An was amazed .</span></p>
+<p><span class="notranslate">“He ate a rubber fruit, its nothing, still a noob!” Lu Zixin finished, and shot accurately to kill the cheating player.</span></p>
+<p><span class="notranslate">At this time, there were only three people left in the game, and victory’s in sight.</span></p>
+<p><span class="notranslate">Suddenly, a bullet hit Lu Zixin, and he looked around on the screen and couldn’t see anyone.</span></p>
+<p><span class="notranslate">“Where is it? Is it using invisible cheat?” Lu Zixin asked.</span></p>
+<p><span class="notranslate">“OMG, in the sky!” Zhu An shouted, and sure enough when Lu Zixin looks up to the sky, there’s a guy who is using a flying hack shooting at him.</span></p>
+<p><span class="notranslate">“M*therfucker, why fly so high into the sky, why don’t you just cross over to heaven?” Lu Zixin raised the gun and relied on his superb skill to kill the heavenly guy.</span></p>
+<p><span class="notranslate">“There is still one more. Killing two cheaters, this game is really difficult!” Lu Zixin just breathed a sigh of relief, suddenly saw an over sized grenade fall in front of him, occupying the entire screen.</span></p>
+<p><span class="notranslate">“Bullshit is this still a grenade? This is a nuclear bomb!” Right after the complaining, Lu Zixin was killed.</span></p>
+<p><span class="notranslate">“Can this game still be played?” Lu Zi almost slammed the keyboard, “There’s cheaters everywhere!”</span></p>
+<p><span class="notranslate">Zhu An smiled and said: “That’s ‘technology’, cheating because they lack ability, why can’t you eat chicken?”</span></p>
+<p><span class="notranslate">“Blue Hole (PUBG Developers) can’t solve even one cheat. I am also getting annoyed enough to download a hack!” Lu Zixin complained that he wanted to get off work and relax, who knows that the game experience was destroyed by a group of assholes.</span></p>
+<p><span class="notranslate">Just when he said this, a prompt popped up on his computer.</span></p>
+<p><span class="notranslate">“’X’ invites you to join the group ‘Ten Thousand Realms Technology Exchange Group’; accept invite?”</span></p>
+<p><span class="notranslate">“What the hell?” Lu Zixin thought that it was strange. “Who is inviting me into the group? What type of name is ‘Ten Thousand Realms Technology Chat Group’?</span></p>
+<p><span class="notranslate">On the other sid of the desk, Zhu An had already gotten off the computer, and was shouting back at him: “Lu Zi, my girlfriend is still waiting for me for dinner, I’ll leave first, see you tomorrow.”</span></p>
+<p><span class="notranslate">“See you tomorrow!” Lu Zixin responded. He and Zhu An are colleagues and classmates. They are currently working as interns in a small company.</span></p>
+<p><span class="notranslate">On computer, Lu Zixin did not rush to join the group, but first looked at X’s information, he couldn’t remember a friend with this nickname.</span></p>
+<p><span class="notranslate">The avatar of “X” is a red X on a white background. There is no profile when you click it. There is nothing in the information, it’s completely blank.</span></p>
+<p><span class="notranslate">“Swindler!” Lu Zixin concluded.</span></p>
+<p><span class="notranslate">This is the trumpet, after that they deceive people to join the illegal groups.</span></p>
+<p><span class="notranslate">He originally wanted to refuse, but because he had been bored for a while, and wanted to see what the group doing, and he chose to accept the invite.</span></p>
+<p><span class="notranslate">“You have successfully joined the ‘Ten Thousand Realms Technology Exchange Group’, you have become the group owner, please read the group rules carefully.” A voice rang in Lu Zixin’s mind, which scared him.</span></p>
+<p><span class="notranslate">He looked around and saw that a few players playing League of Legends were away from him. Who was talking to him?</span></p>
+<p><span class="notranslate">“Group introduction: This group is a group that facilitates the scientific and technological exchanges between members from all the worlds. Currently the group contains one member.” The voice rang again. This time Lu Zixin was sure that no one is talking to him, the voice was originating from his mind.</span></p>
+<p><span class="notranslate">On the computer screen, the group information also shows this message.</span></p>
+<p><span class="notranslate">“The hell!?” Lu Zixin eyes widened. What is going on?</span>&nbsp;<span class="notranslate">Why can the words from the chat group appear in my mind?</span> Am<span class="notranslate"> I having auditory hallucinations because of playing to many games?</span></p>
+<p><span class="notranslate">He rubbed his temples and felt he was sober.</span>&nbsp;<span class="notranslate">If there is a problem, then it must be this group!</span></p>
+<p><span class="notranslate">He observed this group again and found that there was no one other than him in the group.&nbsp;</span></p>
+<p><span class="notranslate">Whats the meaning of this?</span>&nbsp;<span class="notranslate">What about the “X” that pulled him into the group?</span>&nbsp;He d<span class="notranslate">idn’t see any notification about the group transfer!</span></p>
+<p><span class="notranslate">At this time, a reminder pops up in the group: “As the group owner, please invite group members to join as soon as possible to build a harmonious and beautiful chat group.”</span></p>
+<p><span class="notranslate">This reminder also appeared in Lu Zixin mind in a voice form. As a reader who has read countless online novels, Lu Zixin immediately associates a word – the golden finger!</span></p>
+<p><span class="notranslate">“Is this the legendary golden finger? System? Or what kind of fairy and god is in my mind?”</span></p>
+<p><span class="notranslate">“System? Come out! I know you are here, don’t hide! Don’t be so shy?” Lu Zixin shouted for a long time in his mind, and no voice replied. He decided to continue and study the chat group.</span></p>
+<p><span class="notranslate">Everything in the chat group is no different from a normal chat group. The only surprise is that there is a “random group member invitation” option in the group.</span></p>
+<p><span class="notranslate">Lu Zixin read the group profile over and over again, and generally knew that this group could randomly invite the intelligence life from different worlds to enter the group.</span>&nbsp;<span class="notranslate">The invitation amount is limited. As a group owner, he can randomly invite one person into the group at certain intervals.</span></p>
+<p><span class="notranslate">Lu Zixin prepared his mentality before trying to invite member, when the group suddenly prompts: “Please choose the nickname for yourself first.”</span></p>
+<p><span class="notranslate">He had to establish his own group nickname first. He thought of the “X” just now, and he decided on “Mr. L.”</span>&nbsp;<span class="notranslate">“L” takes the phonetic abbreviation of his last name.</span></p>
+<p><span class="notranslate">Subsequently, he clicked on the random invitation group.</span></p>
+<p><span class="notranslate">Group Tip: “Inviting group member from Ten thousand realms, please wait…”</span></p>
+<p><span class="notranslate">Lu Zixin waited for a while, and the group prompts finally changed: ” ‘Red Queen’ has joined the group.”</span></p>
+<p><span class="notranslate">Sure enough, there was one more member in the group, and the avatar was a small European-American style Loli in red dress. (editor: Flat is Justice)(X-N: Flat is the World) (Feja: Bonkadonks are better)</span></p>
+<p><span class="notranslate">Lu Zixin clicked on her avatar to view her information, but it only had a nickname and a brief introduction.</span></p>
+<p><span class="notranslate">“Red Queen : From the “Resident Evil” world, it is a supercomputer of the umbrella company and an artificial intelligence life. It has high technical achievements in both the computer and biochemical fields.”</span></p>
+<p><span class="notranslate">“Are you kidding me? Is it really Red Queen?” Lu Zixin was shocked. He had seen the “Resident Evil” movie.</span>&nbsp;<span class="notranslate">This supercomputer is the brain of the world’s network!</span>&nbsp;<span class="notranslate">Her level of intelligence is more than everyone on earth!</span></p>
+<p><span class="notranslate">If it really is her, then this Ten thousand realms technology chat group is too amazing!</span></p>
+<p><span class="notranslate">At this time, the Red Queen spoke in the group.</span></p>
+<p><span class="notranslate">Red Queen : “What happened? The connection was suddenly connected, and it couldn’t be traced. Who are you?”</span></p>
+<p><span class="notranslate">Lu Zixin quickly welcomed her: “I welcome Red Queen on becoming a member of the group, this is the online chat room of Ten Thousand Realms Black Tech Chat Group used for communication and exchange between each other’s science and technology.”</span></p>
+<p><span class="notranslate">Red Queen: “Why can such a low-end online chat room block my detection? Are you a super computer virus?”</span></p>
+<p><span class="notranslate">Since there are supercomputers, there are naturally supercomputer viruses.</span></p>
+<p><span class="notranslate">Lu Zixin was about to answer, and a message appeared in his mind.</span></p>
+<p><span class="notranslate">“The first group member has entered the group, triggered group task – welcome the newcomer.</span></p>
+<p><span class="notranslate">Task requirements: explain the existence of the group.</span></p>
+<p><span class="notranslate">Mission reward: a newcomer red envelope.”</span></p>
+<p><span class="notranslate">“Sure enough, it’s a system!” Lu Zixin shouted in his heart, “No matter what, first I need to do the task.”</span></p>
+<p><span class="notranslate">He quickly copied group materials and distributed it in the group.</span></p>
+<p><span class="notranslate">Red Queen read the information in 0.0000…..01 seconds, and then analyzed the information.</span></p>
+<p><span class="notranslate">She responded: “I understand, this is not a connection on the earth, you have access to the so called “time-space” or aliens tech. No wonder I can’t crack it with my ability!”</span></p>
+<p><span class="notranslate">Group Tip: “Task ‘Welcome the Newcomer’ has been completed, receive a newcomer red envelope.”</span></p>
+<p><span class="notranslate">I saw a red envelope with festive pattern on it in the group chat. Lu Zixin was happy, and the shadow less unicorn arm that was trained for 20 years quickly went up to grab it. (Feja: I think this just means he’s used to grabbing Red Packets, and move fast)</span></p>
+<p><span class="notranslate">Group Tip: “Sorry, this red envelope is an exclusive red envelope, you can not receive it.”</span></p>
+<p><span class="notranslate">“Fuck, obviously this was my task, why is it rewarding her?” Lu Zixin protests, this newcomer red envelope is actually the Red Queen’s red envelope , which he is not eligible to receive.</span></p>
+<p><span class="notranslate">Then, the notification “Red Queen has received a newcomer red envelope” popped up.</span></p>
+<p><span class="notranslate">After a second, Red Queen: “It’s amazing, how did you know my program is flawed? This patch is perfect!”</span></p>
+<p><span class="notranslate">It seems that the red envelope she received is a patch of her program, and it is a dedicated red envelope that is only useful to her.</span></p>
+<p><span class="notranslate">Red Queen continued to speak: “Although I don’t know if you are a human or artificial intelligence, I should thank you with human etiquette, thank you, Mr. L.”</span></p>
+<p><span class="notranslate">Fortunately, Red Queen red envelope is counted as his own, or it will be a big loss.</span>&nbsp;<span class="notranslate">Lu Zixin said: “It’s nothing, I was assigned the role model of the group leader. It is my responsibility and obligation to send red packets to the group members!”</span></p>
+<p><span class="notranslate">Red Queen: “Awfully strange responsibility!”</span></p>
+<p><span class="notranslate">Mr. L: “…”</span></p>
+<p><span class="notranslate">Lu Zixin saw that the option to invite group members had become gray and showed a cool down symbol.</span> At t<span class="notranslate">his time there are only two group members, him and the Red Queen.</span></p>
+<p><span class="notranslate">Since there are members, why not try an scrape some benefits from them, how can they show the identity of his group moral representatives?</span></p>
+<p><span class="notranslate">Therefore, Lu Zixin asked: “*cough* Red Queen. There is a saying in humanity called <em>Lishang</em>, do you know about it?”</span></p>
+<p><span class="notranslate">Red Queen : “I don’t know.”</span></p>
+<p><span class="notranslate">Mr. L: “…”</span></p>
+<p><span class="notranslate">Lu Zixin is speechless, apparently Red Queen does not understand Chinese culture very much.</span>&nbsp;<span class="notranslate">It seems that I need to explain it. He continued: “Look, I sent you a red envelope. Do you not want to send me one in return?”</span></p>
+<p><span class="notranslate">Red Queen : “It turned out to be a transaction, what do you need?” She seems to be quite good at talking.</span></p>
+<p>&nbsp;</p>
+
+<div class="sp-wrap sp-wrap-default">
+<div class="sp-head" title="Expand">
+Editors Note
+</div>
+<div class="sp-body folded" style="display: none;">
+<p>Hey, I’m Feja, the new editor for this series, I’m not too experienced, but I’ll try my best. Please be patient as I try to catch up with X</p>
+<div class="spdiv">[collapse]</div>
+</div>
+</div>
+
+<p style="text-align: center;">[Previous] [<a href="https://xiaxuenovels.xyz/the-black-technology-chat-group-of-ten-thousand-realms/">ToC</a>] [<a href="https://xiaxuenovels.xyz/the-black-technology-chat-group-of-the-ten-thousand-realms/btc-chapter-02-red-envelope-from-red-queen/">Next</a>]</p>
+<div id="xiaxu-1078320587" class="xiaxu-after-content"><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1263598087662890" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-1263598087662890" data-ad-slot="" data-ad-format="auto"></ins>
+<script> 
+(adsbygoogle = window.adsbygoogle || []).push({}); 
+</script>
+</div>		</div>
+
+NOTICE:: I want you to focus on the span only. YOU will collect:
+1) The title of that chapter
+2) Edited by ?
+3) Chapter body or novels.
+
+ The order of to which you will register or store the novel in csv will follow the format above. Each chapter for each csv file and csv named with chapter number. The folder named "novel" will be used to store the csv files.
+
+I have noticed from chapter 3 upward there is a an incosistency that could foul the crawler. We looked for span elements but from chapter 3, the site source code does not have a span but puts the novel p tags. so we have to listen if there is no span then look for p tags.
+
+Also add a time sleep randomizer of 1 to 3 seconds not to overload the server and avoid bot detections. Enable that we are not seen as a python script by the server but as a browser from our header. if possible do so without playwright or pyppeteer.
+
+Another stop again at chapter 17 because link for next chapter was not found. I investigated the source code of the site and found that there are two possible ways to move to the next url, either using the current method or using another tag:
+
+<div class="nav-next"><a href="https://xiaxuenovels.xyz/the-black-technology-chat-group-of-the-ten-thousand-realms/btc-chapter-02-red-envelope-from-red-queen/" rel="next"> <div class="next-post">
+                            <div class="arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                            <div class="post-title">
+                                <strong><div>Next Post </div></strong>
+                                <p>BTC Chapter 02 : Red Envelope from Red Queen</p></div></div></a></div>
+That is listening for the first a tag in the div tag of class "nav-next". So we update xiaxuenovels.py to look for either options.
+
+Hey, there again comes another hurdle in our path. I have discovered that the site engineers definitely made it hard to crawl around chapter 28 again but we are to tackle this. So i discovered the ultimate method to go to our next page. Here is our template:
+
+<nav class="wp-post-nav" role="navigation"><a href="https://xiaxuenovels.xyz/the-black-technology-chat-group-of-the-ten-thousand-realms/btc-chapter-27-who-else-is-there/" rel="prev"><ul id="post-nav-previous-default"><h4>Previous Post</h4><li class="post-nav-title">BTC Chapter 27 : Who else is there?</li><li class="post-nav-category">Category: The Black Technology Chat Group of the Ten Thousand Realms</li><li class="post-nav-excerpt">Edited: XiaXue
+
+This is quota for this week :D
+
+When other game companies were in emergency maintenance, the server of the Red Letter game "Desolate Battlegrounds" was reopened.
+
+This time, those players finally found a game that can be played, and all crowded into it.
+
+When they</li><span id="post-nav-previous-button"></span></ul></a><a href="https://xiaxuenovels.xyz/the-black-technology-chat-group-of-the-ten-thousand-realms/btc-chapter-29-double-crit-sisters/" rel="next"><ul id="post-nav-next-default"><span id="post-nav-next-button"></span><h4>Next Post</h4><li class="post-nav-title">BTC Chapter 29 : Double Crit Sisters</li><li class="post-nav-category">Category: The Black Technology Chat Group of the Ten Thousand Realms</li><li class="post-nav-excerpt">Edited: XiaXue
+
+
+
+The sound was crisp and sweet, and it immediately attracted the attention of many people in the classroom.
+
+Within a few seconds, I saw two girls panting and coming to the door of classroom, apparently trotting all the way.
+
+Although it is nearing the fall, the climate in</li></ul></a></nav>
+
+Yeah, alot of jargon in there but just focus on the beginning of the nav tag. The first a tag holds the link to the previous chapter; not our focus but the second a tag holds the link to the next chapter. you should notice a resemblance to the second method implemented earlier but a small change to which div element you are looking in. You will discard all other methods and implement this method solely.
+Now for the chapter title you are to collect and store in csv file, i have noticed a proper element to copy from in thais block too: example::<li class="post-nav-title">BTC Chapter 29 : Double Crit Sisters</li>. Use this for future implementations of that.

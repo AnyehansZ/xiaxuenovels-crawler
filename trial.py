@@ -6,16 +6,16 @@ import random
 from urllib.parse import urljoin
 
 # Setup
-BASE_URL = "http://books.toscrape.com/catalogue/category/books/mystery_3/"
-START_URL = "index.html"
+BASE_URL = "https://www.fanmtl.com/novel/"
+START_URL = "memorize_1.html"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/119.0.0.0"}
 
 def start_crawler():
     # 1. Create and open the CSV file
-    with open('books_data.csv', mode='w', newline='', encoding='utf-8') as file:
+    with open('novel_data.csv', mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         # Write the header row
-        writer.writerow(["Title", "Price"])
+        writer.writerow(["Chapter Title", "content"])
 
         current_url = urljoin(BASE_URL, START_URL)
 
@@ -25,15 +25,16 @@ def start_crawler():
             soup = BeautifulSoup(response.text, "html.parser")
             
             # 2. Extract Data
-            books = soup.find_all("article", class_="product_pod")
-            for book in books:
-                title = book.h3.a["title"]
-                price = book.find("p", class_="price_color").text
-                # Write a single row to the CSV
-                writer.writerow([title, price])
-
+            container = soup.find("div", class_="chapter-content")
+            chapter_title = soup.find("div", class_="titles")
+            titles=chapter_title.find_all("h1")
+            full_title=" ".join([t.get_text(strip=True) for t in titles])
+            all_paragraphs = container.find_all("p")
+            full_text = " ".join([p.get_text(strip=True) for p in all_paragraphs])
+            # Write a single row to the CSV
+            writer.writerow([full_title, full_text])
             # 3. Handle Pagination
-            next_button = soup.find("li", class_="next")
+            next_button = soup.find("a", class_="chnav next")
             if next_button:
                 next_page_rel = next_button.a["href"]
                 current_url = urljoin(current_url, next_page_rel)
