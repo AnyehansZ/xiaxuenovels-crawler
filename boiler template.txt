@@ -136,3 +136,39 @@ NOTICE:: I want you to focus on the span only. YOU will collect:
 3) Chapter body or novels.
 
  The order of to which you will register or store the novel in csv will follow the format above. Each chapter for each csv file and csv named with chapter number. The folder named "novel" will be used to store the csv files.
+
+I have noticed from chapter 3 upward there is a an incosistency that could foul the crawler. We looked for span elements but from chapter 3, the site source code does not have a span but puts the novel p tags. so we have to listen if there is no span then look for p tags.
+
+Also add a time sleep randomizer of 1 to 3 seconds not to overload the server and avoid bot detections. Enable that we are not seen as a python script by the server but as a browser from our header. if possible do so without playwright or pyppeteer.
+
+Another stop again at chapter 17 because link for next chapter was not found. I investigated the source code of the site and found that there are two possible ways to move to the next url, either using the current method or using another tag:
+
+<div class="nav-next"><a href="https://xiaxuenovels.xyz/the-black-technology-chat-group-of-the-ten-thousand-realms/btc-chapter-02-red-envelope-from-red-queen/" rel="next"> <div class="next-post">
+                            <div class="arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                            <div class="post-title">
+                                <strong><div>Next Post </div></strong>
+                                <p>BTC Chapter 02 : Red Envelope from Red Queen</p></div></div></a></div>
+That is listening for the first a tag in the div tag of class "nav-next". So we update xiaxuenovels.py to look for either options.
+
+Hey, there again comes another hurdle in our path. I have discovered that the site engineers definitely made it hard to crawl around chapter 28 again but we are to tackle this. So i discovered the ultimate method to go to our next page. Here is our template:
+
+<nav class="wp-post-nav" role="navigation"><a href="https://xiaxuenovels.xyz/the-black-technology-chat-group-of-the-ten-thousand-realms/btc-chapter-27-who-else-is-there/" rel="prev"><ul id="post-nav-previous-default"><h4>Previous Post</h4><li class="post-nav-title">BTC Chapter 27 : Who else is there?</li><li class="post-nav-category">Category: The Black Technology Chat Group of the Ten Thousand Realms</li><li class="post-nav-excerpt">Edited: XiaXue
+
+This is quota for this week :D
+
+When other game companies were in emergency maintenance, the server of the Red Letter game "Desolate Battlegrounds" was reopened.
+
+This time, those players finally found a game that can be played, and all crowded into it.
+
+When they</li><span id="post-nav-previous-button"></span></ul></a><a href="https://xiaxuenovels.xyz/the-black-technology-chat-group-of-the-ten-thousand-realms/btc-chapter-29-double-crit-sisters/" rel="next"><ul id="post-nav-next-default"><span id="post-nav-next-button"></span><h4>Next Post</h4><li class="post-nav-title">BTC Chapter 29 : Double Crit Sisters</li><li class="post-nav-category">Category: The Black Technology Chat Group of the Ten Thousand Realms</li><li class="post-nav-excerpt">Edited: XiaXue
+
+
+
+The sound was crisp and sweet, and it immediately attracted the attention of many people in the classroom.
+
+Within a few seconds, I saw two girls panting and coming to the door of classroom, apparently trotting all the way.
+
+Although it is nearing the fall, the climate in</li></ul></a></nav>
+
+Yeah, alot of jargon in there but just focus on the beginning of the nav tag. The first a tag holds the link to the previous chapter; not our focus but the second a tag holds the link to the next chapter. you should notice a resemblance to the second method implemented earlier but a small change to which div element you are looking in. You will discard all other methods and implement this method solely.
+Now for the chapter title you are to collect and store in csv file, i have noticed a proper element to copy from in thais block too: example::<li class="post-nav-title">BTC Chapter 29 : Double Crit Sisters</li>. Use this for future implementations of that.
