@@ -172,3 +172,20 @@ Although it is nearing the fall, the climate in</li></ul></a></nav>
 
 Yeah, alot of jargon in there but just focus on the beginning of the nav tag. The first a tag holds the link to the previous chapter; not our focus but the second a tag holds the link to the next chapter. you should notice a resemblance to the second method implemented earlier but a small change to which div element you are looking in. You will discard all other methods and implement this method solely.
 Now for the chapter title you are to collect and store in csv file, i have noticed a proper element to copy from in thais block too: example::<li class="post-nav-title">BTC Chapter 29 : Double Crit Sisters</li>. Use this for future implementations of that.
+
+I realized a mistake in a former implementation and want to correct it. its involves the chapter title, i had the chapter title being read from the next button area resulting in the chapter title being registered being the chapter title for the next chapter. So this is the html template we are going to read the current chapter title from:
+<span itemprop="name">BTC Chapter 03 : Prank ?</span>
+or
+<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="item"><span itemprop="name">BTC Chapter 03 : Prank ?</span></span><meta itemprop="position" content="3"></li>
+
+I noticed that despite my support by giving code snippets of html where to find titles , you haven't corrected the issue. its the first span located a li element with class="trail-item trail-end"
+
+ok now i need a seperate logic that will read the csv files in novel folder and compile them in an epub document. I need each chapter to be indexed and named. it will use the Ebooklib to create the epub in the novel folder and name it BTC.
+
+Huh, This is frustrating buddy. Got stuck again at chapter 94 and guess what? we have to roll back some changes concerning the navigation to the next page. our current mechanism will serve as the primary option while the change in which we had to look for the last <a> tag in a <p> tag:
+<p style="text-align: center;">[<a href="//www.xiaxuenovels.xyz/the-black-technology-chat-group-of-the-ten-thousand-realms/btc-chapter-93-my-super-power-is/">Previous</a>] [<a href="//www.xiaxuenovels.xyz/the-black-technology-chat-group-of-ten-thousand-realms/">ToC</a>] [<a href="//www.xiaxuenovels.xyz/the-black-technology-chat-group-of-the-ten-thousand-realms/btc-chapter-95-conference/">Next</a>]</p>
+so we will a primary and this as backup.
+
+I tried to compile my novel into epub and it was a proper mess. can you make sure that my code adds the csv as the are already ordered in the folder my the system and let it not try ordering them. I want it clean and orderly as it is.
+
+I have 546 chapters but only 539 are compiled?

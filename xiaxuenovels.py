@@ -8,7 +8,7 @@ import os
 
 # Setup
 BASE_URL = "https://xiaxuenovels.xyz/the-black-technology-chat-group-of-ten-thousand-realms/"
-START_URL = "btc-chapter-01-ten-thousand-realms-science-and-technology-chat-group/"
+START_URL = "btc-chapter-476"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
@@ -46,13 +46,20 @@ def extract_edited_by(soup):
     return "Unknown"
 
 def extract_chapter_title(soup):
-    """Extract chapter title from the page."""
-    # Primary method: Look for title in post-nav-title (chapters 28+)
-    nav_title = soup.find('li', class_='post-nav-title')
-    if nav_title:
-        return nav_title.get_text(strip=True)
+    """Extract chapter title from the page (CURRENT chapter, not next)."""
+    # Primary method: Look for li.trail-item.trail-end, then find span itemprop="name" inside it
+    trail_item = soup.find('li', class_='trail-item trail-end')
+    if trail_item:
+        title_span = trail_item.find('span', attrs={'itemprop': 'name'})
+        if title_span:
+            return title_span.get_text(strip=True)
     
-    # Fallback: Look for h1, h2, h3 (chapters 1-27)
+    # Fallback: Look for any span with itemprop="name" (if trail-item not found)
+    title_span = soup.find('span', attrs={'itemprop': 'name'})
+    if title_span:
+        return title_span.get_text(strip=True)
+    
+    # Final fallback: Look for h1, h2, h3 tags
     for tag in ['h1', 'h2', 'h3']:
         title = soup.find(tag)
         if title:
@@ -146,15 +153,26 @@ def start_crawler():
             chapter_count += 1
             
             # 4. Find next chapter URL
-            # Method: Look for nav tag with class wp-post-nav, then find second a tag with rel='next'
             next_link = None
+            
+            # Method 1 (Primary): Look for nav tag with class wp-post-nav, then find a tag with rel='next'
             wp_post_nav = soup.find('nav', class_='wp-post-nav')
             if wp_post_nav:
-                # Find all a tags with rel='next'
                 next_links = wp_post_nav.find_all('a', rel='next')
                 if next_links:
-                    # Get the first (or only) link with rel='next'
                     next_link = next_links[0].get('href')
+            
+            # Method 2 (Fallback): Look for last link in center-aligned paragraph
+            if not next_link:
+                paragraphs = soup.find_all('p', style='text-align: center;')
+                for p in paragraphs:
+                    links = p.find_all('a')
+                    if links:
+                        # Get the last link (usually the "Next" button)
+                        last_link = links[-1]
+                        if last_link.get('href'):
+                            next_link = last_link.get('href')
+                            break
             
             if next_link:
                 current_url = urljoin(current_url, next_link)
