@@ -1,0 +1,44 @@
+from playwright.sync_api import sync_playwright
+
+def run_persistent_crawler():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        
+        # 1. THE LOGIN PHASE
+        # Create a fresh context and log in
+        context = browser.new_context()
+        page = context.new_page()
+        page.goto("https://quotes.toscrape.com/login")
+        
+        page.fill('input[name="username"]', "student_tutor")
+        page.fill('input[name="password"]', "password123")
+        page.click('input[type="submit"]')
+        
+        # 2. SAVE THE STATE
+        # This saves all cookies and session data to a JSON file
+        context.storage_state(path="auth_state.json")
+        print("✅ Session saved to auth_state.json")
+        
+        browser.close()
+
+def run_with_saved_session():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        
+        # 3. THE REUSE PHASE
+        # We start a new context using the saved JSON file
+        context = browser.new_context(storage_state="auth_state.json")
+        page = context.new_page()
+        
+        # Go directly to the main page—we should already be logged in!
+        page.goto("https://quotes.toscrape.com/")
+        
+        if page.query_selector('a[href="/logout"]'):
+            print("🚀 Success: Started session already logged in!")
+        
+        browser.close()
+
+if __name__ == "__main__":
+    run_persistent_crawler()
+    # Now we can run future tasks without re-entering credentials
+    run_with_saved_session()
